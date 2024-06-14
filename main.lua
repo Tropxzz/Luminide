@@ -308,7 +308,7 @@ function Library.Createtab(Name, Image, Visible)
 	Converted["_UIPadding2"].PaddingTop = UDim.new(0, 1)
 	Converted["_UIPadding2"].Parent = Converted["_TextButton"]
 
-	Converted["_ImageLabel3"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+	Converted["_ImageLabel3"].Image = loadstring(game:HttpGet("https://github.com/Tropxzz/Luminide/blob/main/geticons.lua"))():GetIcon(Image)
 	Converted["_ImageLabel3"].AnchorPoint = Vector2.new(0.5, 0.5)
 	Converted["_ImageLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Converted["_ImageLabel3"].BackgroundTransparency = 1
